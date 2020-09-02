@@ -17,6 +17,10 @@ module.exports = {
       '/auth': {
         target: 'http://localhost:8000',
         //changeOrigin: true
+      },
+      '/registration': {
+        target: 'http://localhost:8000',
+        //changeOrigin: true
       }
     },
     // Various Dev Server settings
